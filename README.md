@@ -30,6 +30,7 @@ Observables-Example1
         environment.ts"
 
 
+"
 export class Movie {
   id: Number;
   name: String;
@@ -162,6 +163,8 @@ import {AppComponent} from './app.component';
 })
 export class AppModule {
 }
+
+"
 
 
 
