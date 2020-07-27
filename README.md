@@ -171,13 +171,15 @@ export class AppModule {
 Commnads to create the service,components and classes in angular.
 
 
-ng g service service/Movie --skipTests=true
-ng g component Acomp
-ng g component Bcomp
 
+To crate the service class under service folder
+ng g service service/Movie --skipTests=true
+
+To crate component class
+ng g component Acomp
+
+To crate the model class under service folder
 ng g class model/movie --type=model --skipTests=true
-ng g component seqsubscriber 
-ng generate class model.movie --type=model
 
 
 
